@@ -75,6 +75,7 @@ export const props = [
                 { label: 'mercator', value: 'mercator' },
                 { label: 'transverseMercator', value: 'transverseMercator' },
                 { label: 'naturalEarth1', value: 'naturalEarth1' },
+                { label: 'albersUsa', value: 'albersUsa' },
             ],
         },
     },
