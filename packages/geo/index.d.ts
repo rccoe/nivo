@@ -17,6 +17,7 @@ declare module '@nivo/geo' {
         | 'mercator'
         | 'transverseMercator'
         | 'naturalEarth1'
+        | 'conicEqualArea'
 
     type FeatureAccessor<F, T> = (feature: F) => T
 

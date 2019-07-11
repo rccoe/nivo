@@ -22,6 +22,7 @@ import {
     geoTransverseMercator,
     geoNaturalEarth1,
     geoGraticule,
+    geoConicEqualArea,
 } from 'd3-geo'
 import { guessQuantizeColorScale, useTheme } from '@nivo/core'
 import { useInheritedColor } from '@nivo/colors'
@@ -38,6 +39,7 @@ export const projectionById = {
     mercator: geoMercator,
     transverseMercator: geoTransverseMercator,
     naturalEarth1: geoNaturalEarth1,
+    conicEqualArea: geoConicEqualArea
 }
 
 export const useGeoMap = ({
